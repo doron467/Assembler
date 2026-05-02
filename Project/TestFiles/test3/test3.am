@@ -1,0 +1,13 @@
+.data 1,2,3
+mov r1,r2
+.string "hello"
+
+
+prn macroString
+macroString: .string "macro"
+prn macroString
+
+jmp func
+
+test1: .entry macroString
+test2: .extern func

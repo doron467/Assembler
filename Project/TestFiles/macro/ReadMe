@@ -1,0 +1,6 @@
+this folder is for testing the preprocessor.
+the preprocessor will only expand a macro if nothing else is written in the line except the macro's name.
+the preprocessor can also expand macros inside other macros,
+for example, the macro test2 calls the macro test1 inside itself.
+you can check the .am file to see the result of the preprocessor,
+and the output image to see the errors in the first pass.
